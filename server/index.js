@@ -25,6 +25,9 @@ pgClient
   .then(() => console.log("pgClient is okay"))
   .catch((err) => console.log(err));
 
+console.log("foobar");
+console.log(pgClient);
+
 // Redis Client Setup
 const redis = require("redis");
 const redisClient = redis.createClient({
